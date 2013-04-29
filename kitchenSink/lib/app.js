@@ -204,6 +204,9 @@ App.page.applicationMenu.init = function() {
 		});
 		$('#menuBtn').css('display','none');
 	}
+	else{
+		$('#simulInst').css('display','none');
+	}
 }
 
 App.init();
